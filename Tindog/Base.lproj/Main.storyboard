@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="z6H-bY-RoW">
             <objects>
-                <viewController id="nVU-Ap-3TZ" customClass="ViewController" customModule="Tindog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nVU-Ap-3TZ" customClass="HomeViewController" customModule="Tindog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bo0-Wn-740">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,6 +98,9 @@
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="Dgv-Ch-GZQ" firstAttribute="leading" secondItem="tmw-p5-z7g" secondAttribute="leading" constant="12" id="AWq-ZJ-3Qn"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -109,6 +112,10 @@
                         <viewLayoutGuide key="safeArea" id="8RU-b5-3k8"/>
                     </view>
                     <navigationItem key="navigationItem" id="LIa-TH-MH0"/>
+                    <connections>
+                        <outlet property="cardView" destination="bDa-LT-bmi" id="74D-00-BxH"/>
+                        <outlet property="homeWrapper" destination="tmw-p5-z7g" id="7gc-N2-mwG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fel-bf-5gS" sceneMemberID="firstResponder"/>
             </objects>
