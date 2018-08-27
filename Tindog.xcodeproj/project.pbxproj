@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55E98C892132D2CD0040553C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E98C882132D2CD0040553C /* HomeViewController.swift */; };
+		55E98C8B21336B830040553C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E98C8A21336B830040553C /* LoginViewController.swift */; };
 		55EAF31721298BB400075195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EAF31621298BB400075195 /* AppDelegate.swift */; };
 		55EAF31C21298BB400075195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EAF31A21298BB400075195 /* Main.storyboard */; };
 		55EAF31E21298BB600075195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EAF31D21298BB600075195 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		22C5B63088764DB5E1C9CB77 /* Pods_Tindog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tindog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E98C882132D2CD0040553C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		55E98C8A21336B830040553C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		55EAF31321298BB400075195 /* Tindog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tindog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EAF31621298BB400075195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55EAF31B21298BB400075195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				55E98C882132D2CD0040553C /* HomeViewController.swift */,
+				55E98C8A21336B830040553C /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E98C8B21336B830040553C /* LoginViewController.swift in Sources */,
 				55EAF31721298BB400075195 /* AppDelegate.swift in Sources */,
 				55E98C892132D2CD0040553C /* HomeViewController.swift in Sources */,
 			);

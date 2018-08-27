@@ -28,14 +28,30 @@ class HomeViewController: UIViewController {
         self.revealingSplashScreen.animationType = SplashAnimationType.popAndZoomOut
         self.revealingSplashScreen.startAnimation()
         let titleView = NavigationImageView()
+        
         titleView.image = UIImage(named: "Actions")
         self.navigationItem.titleView = titleView
         let homeGR = UIPanGestureRecognizer(target: self, action: #selector(cardDragged(gestureRecognizer:)))
         self.cardView.addGestureRecognizer(homeGR)
         
+        let leftBtn = UIButton(type: .custom)
+        leftBtn.setImage(UIImage(named: "login"), for: .normal)
+        leftBtn.imageView?.contentMode = .scaleAspectFit
+        leftBtn.addTarget(self, action: #selector(goToLogin(sender:)), for: .touchUpInside)
+        
+        let leftBarButton = UIBarButtonItem(customView: leftBtn)
+        self.navigationItem.leftBarButtonItem = leftBarButton
+        
         // Do any additional setup after loading the view.
     }
 
+    @objc func goToLogin(sender: UIButton ){
+        let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let loginViewController = storyBoard.instantiateViewController(withIdentifier: "loginVC")
+        present(loginViewController, animated: true,completion: nil)
+        
+    }
+    
     @objc func cardDragged(gestureRecognizer : UIPanGestureRecognizer){
         let cardPoint = gestureRecognizer.translation(in: view)
         self.cardView.center = CGPoint(x: self.view.bounds.width / 2 + cardPoint.x, y: self.view.bounds.height / 2 + cardPoint.y)
