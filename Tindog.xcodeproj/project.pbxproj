@@ -10,6 +10,7 @@
 		55E98C892132D2CD0040553C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E98C882132D2CD0040553C /* HomeViewController.swift */; };
 		55E98C8B21336B830040553C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E98C8A21336B830040553C /* LoginViewController.swift */; };
 		55E98C8E213393E30040553C /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E98C8D213393E30040553C /* UIViewExt.swift */; };
+		55E98C90213C35D10040553C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55E98C8F213C35D00040553C /* GoogleService-Info.plist */; };
 		55EAF31721298BB400075195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EAF31621298BB400075195 /* AppDelegate.swift */; };
 		55EAF31C21298BB400075195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EAF31A21298BB400075195 /* Main.storyboard */; };
 		55EAF31E21298BB600075195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EAF31D21298BB600075195 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		55E98C882132D2CD0040553C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		55E98C8A21336B830040553C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		55E98C8D213393E30040553C /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		55E98C8F213C35D00040553C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		55EAF31321298BB400075195 /* Tindog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tindog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EAF31621298BB400075195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55EAF31B21298BB400075195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				55EAF31D21298BB600075195 /* Assets.xcassets */,
 				55EAF31F21298BB600075195 /* LaunchScreen.storyboard */,
 				55EAF32221298BB600075195 /* Info.plist */,
+				55E98C8F213C35D00040553C /* GoogleService-Info.plist */,
 			);
 			path = Tindog;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55EAF32121298BB600075195 /* LaunchScreen.storyboard in Resources */,
+				55E98C90213C35D10040553C /* GoogleService-Info.plist in Resources */,
 				55EAF31E21298BB600075195 /* Assets.xcassets in Resources */,
 				55EAF31C21298BB400075195 /* Main.storyboard in Resources */,
 			);
@@ -186,11 +190,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Tindog/Pods-Tindog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
