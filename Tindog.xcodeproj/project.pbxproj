@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5531CDDD21605759005BF7B9 /* UpdateBDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5531CDDC21605759005BF7B9 /* UpdateBDService.swift */; };
+		55473A0021737165000A7B01 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554739FF21737165000A7B01 /* MatchViewController.swift */; };
+		55473A0221737B47000A7B01 /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55473A0121737B46000A7B01 /* UIImageExt.swift */; };
+		55489BC12145A47B00721B4C /* MatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55489BC02145A47B00721B4C /* MatchModel.swift */; };
+		55E98C892132D2CD0040553C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E98C882132D2CD0040553C /* HomeViewController.swift */; };
+		55E98C8B21336B830040553C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E98C8A21336B830040553C /* LoginViewController.swift */; };
+		55E98C8E213393E30040553C /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E98C8D213393E30040553C /* UIViewExt.swift */; };
+		55E98C90213C35D10040553C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55E98C8F213C35D00040553C /* GoogleService-Info.plist */; };
+		55E98C93213C3E970040553C /* DataBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E98C92213C3E970040553C /* DataBaseService.swift */; };
+		55E98C95213CBF9E0040553C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E98C94213CBF9E0040553C /* ProfileViewController.swift */; };
+		55E98C98213F57D90040553C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E98C97213F57D90040553C /* UserModel.swift */; };
 		55EAF31721298BB400075195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EAF31621298BB400075195 /* AppDelegate.swift */; };
-		55EAF31921298BB400075195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EAF31821298BB400075195 /* ViewController.swift */; };
 		55EAF31C21298BB400075195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EAF31A21298BB400075195 /* Main.storyboard */; };
 		55EAF31E21298BB600075195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EAF31D21298BB600075195 /* Assets.xcassets */; };
 		55EAF32121298BB600075195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EAF31F21298BB600075195 /* LaunchScreen.storyboard */; };
@@ -17,9 +27,19 @@
 
 /* Begin PBXFileReference section */
 		22C5B63088764DB5E1C9CB77 /* Pods_Tindog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tindog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5531CDDC21605759005BF7B9 /* UpdateBDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBDService.swift; sourceTree = "<group>"; };
+		554739FF21737165000A7B01 /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		55473A0121737B46000A7B01 /* UIImageExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
+		55489BC02145A47B00721B4C /* MatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchModel.swift; sourceTree = "<group>"; };
+		55E98C882132D2CD0040553C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		55E98C8A21336B830040553C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		55E98C8D213393E30040553C /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		55E98C8F213C35D00040553C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55E98C92213C3E970040553C /* DataBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseService.swift; sourceTree = "<group>"; };
+		55E98C94213CBF9E0040553C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		55E98C97213F57D90040553C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		55EAF31321298BB400075195 /* Tindog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tindog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EAF31621298BB400075195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55EAF31821298BB400075195 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55EAF31B21298BB400075195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55EAF31D21298BB600075195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55EAF32021298BB600075195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +60,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55E98C872132D23E0040553C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55E98C882132D2CD0040553C /* HomeViewController.swift */,
+				55E98C8A21336B830040553C /* LoginViewController.swift */,
+				55E98C94213CBF9E0040553C /* ProfileViewController.swift */,
+				554739FF21737165000A7B01 /* MatchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55E98C8C213393C10040553C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				55E98C8D213393E30040553C /* UIViewExt.swift */,
+				55473A0121737B46000A7B01 /* UIImageExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		55E98C91213C3E5F0040553C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				55E98C92213C3E970040553C /* DataBaseService.swift */,
+				5531CDDC21605759005BF7B9 /* UpdateBDService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		55E98C96213F57960040553C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55E98C97213F57D90040553C /* UserModel.swift */,
+				55489BC02145A47B00721B4C /* MatchModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		55EAF30A21298BB400075195 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +119,16 @@
 		55EAF31521298BB400075195 /* Tindog */ = {
 			isa = PBXGroup;
 			children = (
+				55E98C96213F57960040553C /* Models */,
+				55E98C91213C3E5F0040553C /* Services */,
+				55E98C8C213393C10040553C /* Extensions */,
+				55E98C872132D23E0040553C /* Controller */,
 				55EAF31621298BB400075195 /* AppDelegate.swift */,
-				55EAF31821298BB400075195 /* ViewController.swift */,
 				55EAF31A21298BB400075195 /* Main.storyboard */,
 				55EAF31D21298BB600075195 /* Assets.xcassets */,
 				55EAF31F21298BB600075195 /* LaunchScreen.storyboard */,
 				55EAF32221298BB600075195 /* Info.plist */,
+				55E98C8F213C35D00040553C /* GoogleService-Info.plist */,
 			);
 			path = Tindog;
 			sourceTree = "<group>";
@@ -149,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55EAF32121298BB600075195 /* LaunchScreen.storyboard in Resources */,
+				55E98C90213C35D10040553C /* GoogleService-Info.plist in Resources */,
 				55EAF31E21298BB600075195 /* Assets.xcassets in Resources */,
 				55EAF31C21298BB400075195 /* Main.storyboard in Resources */,
 			);
@@ -164,11 +227,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Tindog/Pods-Tindog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -200,8 +273,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55EAF31921298BB400075195 /* ViewController.swift in Sources */,
+				55E98C95213CBF9E0040553C /* ProfileViewController.swift in Sources */,
+				55489BC12145A47B00721B4C /* MatchModel.swift in Sources */,
+				55E98C98213F57D90040553C /* UserModel.swift in Sources */,
+				55E98C8E213393E30040553C /* UIViewExt.swift in Sources */,
+				55473A0021737165000A7B01 /* MatchViewController.swift in Sources */,
+				5531CDDD21605759005BF7B9 /* UpdateBDService.swift in Sources */,
+				55E98C8B21336B830040553C /* LoginViewController.swift in Sources */,
 				55EAF31721298BB400075195 /* AppDelegate.swift in Sources */,
+				55E98C93213C3E970040553C /* DataBaseService.swift in Sources */,
+				55E98C892132D2CD0040553C /* HomeViewController.swift in Sources */,
+				55473A0221737B47000A7B01 /* UIImageExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.elementpath.tindog.Tindog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -385,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.elementpath.tindog.Tindog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
